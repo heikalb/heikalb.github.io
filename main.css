@@ -22,7 +22,11 @@ a, form * , p, span {
 }
 
 a {
-    text-decoration: none
+    text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 #no-JS-message, #page-desc {
