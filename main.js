@@ -80,9 +80,8 @@ function blink_load(e)
 $(document).ready(function()
 {
     // Set theme based on computer's local time
-    var e=new Date, n=e.getHours();
-    //(n >= 18||7 >= n)&&$(".darkable").addClass("darkened");
-    (n >= 7 && n <= 17)&&$(".darkable").removeClass("darkened");
+    // var e=new Date, n=e.getHours();
+    // (n >= 7 && n <= 17)&&$(".darkable").removeClass("darkened");
 
     $("img").unveil(200,function()
     {
