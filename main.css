@@ -383,9 +383,6 @@ form #submit-button {
 
 #copyright {
     text-align: center;
-    color: #ccc;
-    font-size: large;
-    font-weight: 500
 }
 
 
@@ -420,8 +417,7 @@ form #submit-button {
     box-shadow: 0 2px 2px #262626
 }
 
-#site-header.darkened *,body.darkened #page-desc, form.darkened label,
-form.darkened p{
+.darkened *{
     color: #f2f2f2
 }
 
