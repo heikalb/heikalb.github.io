@@ -76,7 +76,6 @@ p {
     margin-right: 1%;
 }
 
-
 #page-links #photography-subpages a:last-child, #page-links #photography-subpages a:first-child{
     margin-right: 0
 }
@@ -379,7 +378,6 @@ form textarea.warning {
 form #submit-button {
     display: none
 }
-
 
 .footer {
     text-align: center;
