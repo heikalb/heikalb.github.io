@@ -22,7 +22,7 @@ a:hover {
   text-decoration: underline;
 }
 
-#no-JS-message, #page-desc {
+p {
     width: 75%;
     max-width: 1250px;
     margin: auto;
@@ -381,10 +381,9 @@ form #submit-button {
 }
 
 
-#copyright {
+.footer {
     text-align: center;
 }
-
 
 #theme-button-panel {
     background: #09c;
@@ -450,7 +449,7 @@ body.darkened .gallery {
         margin: 8px 8px 20px;
     }
 
-    #copyright, #no-JS-message, #page-desc, #page-links, .thumbnail-gallery,
+    p, #page-links, .thumbnail-gallery,
     form {
         width: 99%;
         margin-left: 1%
@@ -498,7 +497,7 @@ body.darkened .gallery {
         font-size: 1.4em
     }
 
-    #copyright, #no-JS-message, #page-desc, #page-links a, form {
+    p, #page-links a, form {
         font-size: .8em
     }
 
