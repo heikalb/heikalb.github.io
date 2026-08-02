@@ -63,7 +63,7 @@ p {
     right: 0
 }
 
-#page-links a {
+#page-links * {
     font-size: medium;
 }
 
@@ -461,7 +461,7 @@ body.darkened .gallery {
         position: static; 
     }
 
-    #page-links a {
+    #page-links * {
         font-size: .9em;
         margin-bottom: 4px;
         margin-top: 0
@@ -495,7 +495,7 @@ body.darkened .gallery {
         font-size: 1.4em
     }
 
-    p, #page-links a, form {
+    p, #page-links *, form {
         font-size: .8em
     }
 
