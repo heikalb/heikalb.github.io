@@ -29,12 +29,12 @@ p {
     font-size: 1.2em
 }
 
-#site-title, .current-page-link
+header h1 a, .darkened header h1 a, .current-page-link
 {
     color: #09c;
 }
 
-#site-header {
+header {
     top: 0;
     left: 0;
     background-color: #fff;
@@ -45,16 +45,16 @@ p {
     box-shadow: 0 2px 2px #e6e6e6
 }
 
-#site-title {
+header h1 {
     margin: 1% 1% 1% 2%;
     font-size: x-large;
 }
 
-#page-links, #page-links a, #site-title, .gallery {
+header nav, header nav a, header h1, .gallery {
     display: inline-block
 }
 
-#page-links {
+header nav {
     float: right;
     min-width: 600px;
     position: absolute;
@@ -63,11 +63,11 @@ p {
     right: 0
 }
 
-#page-links * {
+header nav * {
     font-size: medium;
 }
 
-#page-links > *
+header nav > *
 {
     margin-right: 3%
 }
@@ -76,7 +76,7 @@ p {
     margin-right: 1%;
 }
 
-#page-links #photography-subpages a:last-child, #page-links #photography-subpages a:first-child{
+header nav #photography-subpages a:last-child, header nav #photography-subpages a:first-child{
     margin-right: 0
 }
 
@@ -405,11 +405,11 @@ footer {
     margin: 5px 0
 }
 
-#site-header.darkened, body.darkened {
+header.darkened, body.darkened {
     background: #1a1a1a
 }
 
-#site-header.darkened {
+header.darkened {
     background: #1a1a1a;
     box-shadow: 0 2px 2px #262626
 }
@@ -418,7 +418,7 @@ footer {
     color: #f2f2f2
 }
 
-#site-header.darkened .current-page-link, #site-header.darkened #site-title{
+header.darkened .current-page-link, header.darkened header h1{
     color: #09c
 }
 
@@ -442,18 +442,18 @@ body.darkened .gallery {
 
 /*Smaller display styling*/
 @media screen and (max-width:950px) {
-    #site-title {
+    header h1 {
         font-size: 1.4em;
         margin: 8px 8px 20px;
     }
 
-    p, #page-links, .thumbnail-gallery,
+    p, header nav, .thumbnail-gallery,
     form {
         width: 99%;
         margin-left: 1%
     }
 
-    #page-links {
+    header nav {
         min-width: 0;
         margin-left: 8px;
         width: 90%;
@@ -461,7 +461,7 @@ body.darkened .gallery {
         position: static; 
     }
 
-    #page-links * {
+    header nav * {
         font-size: .9em;
         margin-bottom: 4px;
         margin-top: 0
@@ -491,15 +491,15 @@ body.darkened .gallery {
 }
 
 @media screen and (max-width:530px) {
-    #site-title {
+    header h1 {
         font-size: 1.4em
     }
 
-    p, #page-links *, form {
+    p, header nav *, form {
         font-size: .8em
     }
 
-    #page-links a {
+    header nav a {
         margin: 0 4px 0 0
     }
 
