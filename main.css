@@ -60,24 +60,13 @@ header nav {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: 0
-}
-
-header nav * {
+    right: 0;
     font-size: medium;
 }
 
 header nav > *
 {
     margin-right: 3%
-}
-
-#photography-subpages :not(a:first-child), #photography-subpages :not(a:last-child){
-    margin-right: 1%;
-}
-
-header nav #photography-subpages a:last-child, header nav #photography-subpages a:first-child{
-    margin-right: 0
 }
 
 .spacer {
@@ -461,7 +450,7 @@ body.darkened .gallery {
         position: static; 
     }
 
-    header nav * {
+    header nav {
         font-size: .9em;
         margin-bottom: 4px;
         margin-top: 0
@@ -495,7 +484,7 @@ body.darkened .gallery {
         font-size: 1.4em
     }
 
-    p, header nav *, form {
+    p, header nav, form {
         font-size: .8em
     }
 
